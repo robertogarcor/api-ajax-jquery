@@ -1,2 +1,2 @@
 # api-jquery-php
-Simple API cliente JQuery-Ajax con servidor en PHP y Mysql
+Simple API listado de empleados. Cliente JQuery-Ajax y servidor en PHP y Mysql
