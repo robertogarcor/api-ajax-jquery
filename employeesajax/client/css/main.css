@@ -1,0 +1,12 @@
+
+/*
+ * Main css styles
+ */
+
+table,td,th,tr {
+    border: 1px solid;
+}
+th {
+    background: greenyellow;
+    padding: 15px;
+}
