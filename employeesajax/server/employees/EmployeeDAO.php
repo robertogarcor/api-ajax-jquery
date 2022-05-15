@@ -1,13 +1,13 @@
 <?php
 
-require_once ('./Database.php');
+require_once ('../Database.php');
 
 /**
- * Class of EmployeesDAO
- * @author Roberto García Córcoles
+ * Class of EmployeeDAO
+ * @author Roberto García
  * @version 2018/10/12
  */
-class EmployeesDAO {
+class EmployeeDAO {
 
     /**
      * Get Employees
@@ -51,13 +51,7 @@ class EmployeesDAO {
         }
         
     }
-
-   
     
-
-
-
-
 }
 
 ?>

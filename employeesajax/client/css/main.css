@@ -2,11 +2,34 @@
 /*
  * Main css styles
  */
-
+h1 {
+    margin: 30px;
+}
+.container {
+    margin:0;
+}
+.wrapper {
+    margin: 30px 0 0 30px;
+}
+#content {
+    width: 1140px;
+    min-width: 40%;
+}
+#content-new-department {
+    margin-top: 30px;
+    padding: 15px;
+    
+}
+#content-departments {
+    margin-top: 30px;
+    padding-right: 0;
+}
 table,td,th,tr {
-    border: 1px solid;
+    border: 2px solid;
+    text-align: center;
 }
 th {
     background: greenyellow;
     padding: 15px;
 }
+

@@ -9,7 +9,7 @@ $(document).ready(function(){
  * @returns data employees
  */
 var loadData = function(e){
-    $.ajax({url: 'http://localhost/employeesajax/server/employees/employeesView.php',
+    $.ajax({url: 'http://localhost/employeesajax/server/employees/employeeView.php',
            type: 'GET',
            dataType: 'json',
            contentType: 'application/json; charset=UTF-8',
@@ -36,14 +36,14 @@ var loadData = function(e){
                         $('#content').append(table); 
                     },
                 204 : function(xhr, statustext) {
-                    $('#content').append('<p>' + statustext + '!!</p>');
+                    $('#content').append('<p>' + statustext + ' employees!!</p>');
                 }
             },
             success : function(){
                 //alert('Request complete!');
             },
             error : function(xhr, statustext) {
-                $('#content').append('<p>' + 'Error request!: ' + xhr.status + " - " + statustext + '!!</p>');
+                $('#content').append('<p>' + 'Error request!: ' + xhr.status + " - " + statustext + ' employees!!</p>');
                 //alert('Error request!: ' + xhr.status + " - " + statustext);
             }       
     });

@@ -7,7 +7,7 @@
  * @version 2018/10/12
  */
 
-require_once ('./config.php');
+require_once ('../config.php');
 
 class Database {
     
